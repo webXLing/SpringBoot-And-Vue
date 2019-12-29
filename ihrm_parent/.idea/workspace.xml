@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="332fee7d-39cc-472e-beff-367edc2a4bc5" name="Default Changelist" comment="" />
+    <list default="true" id="332fee7d-39cc-472e-beff-367edc2a4bc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/ihrm_system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/commom/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/commom/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/commom/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/commom/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-saas-hrm-vue-master/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../project-saas-hrm-vue-master/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vueAdmin/vue-admin-template" beforeDir="false" afterPath="$PROJECT_DIR$/../vueAdmin/vue-admin-template" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +41,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,14 +67,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1Usv93iWBuXre4CQZDBujS30xl9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -55,6 +95,8 @@
       <recent name="com.ihrm.commom.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system" />
+      <recent name="$PROJECT_DIR$/ihrm_system/src/main/resources" />
       <recent name="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company" />
     </key>
   </component>
@@ -75,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CompanyApplication">
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
     <configuration name="CompanyDaoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ihrm_company" />
       <extension name="coverage">
@@ -105,8 +147,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ihrm_system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihrm.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.CompanyApplication" />
         <item itemvalue="JUnit.CompanyDaoTest.test" />
       </list>
@@ -124,11 +180,29 @@
       <updated>1576157962437</updated>
       <workItem from="1576157967163" duration="2262000" />
       <workItem from="1576384101870" duration="16310000" />
+      <workItem from="1576498400447" duration="6815000" />
+      <workItem from="1577629725494" duration="4820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -140,6 +214,11 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/commom/service/BaseService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

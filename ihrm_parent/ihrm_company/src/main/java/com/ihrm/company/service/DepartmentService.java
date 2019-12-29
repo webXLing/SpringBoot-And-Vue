@@ -1,6 +1,7 @@
 package com.ihrm.company.service;
 
 
+import com.ihrm.commom.service.BaseService;
 import com.ihrm.commom.utils.IdWorker;
 import com.ihrm.company.dao.DepartmentDao;
 import com.ihrm.domain.company.Department;
@@ -15,7 +16,7 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 
 @Service
-public class DepartmentService {
+public class DepartmentService extends BaseService {
 
     @Autowired
     private DepartmentDao departmentDao;
@@ -60,29 +61,7 @@ public class DepartmentService {
      * 4.通过组织id 查询下面的全部部门列表
      */
     public List<Department> findAll(String id) {
-//        return departmentDao.findAll();
-        /**
-         * 用户构造查询条件
-         *      1.只查询companyId
-         *      2.很多的地方都需要根据companyId查询
-         *      3.很多的对象中都具有companyId
-         *
-         */
-
-        Specification<Department> spec = new Specification<Department>(){
-            /**
-             //             * 用户构造查询条件
-             //             *      root   ：包含了所有的对象数据
-             //             *      cq     ：一般不用
-             //             *      cb     ：构造查询条件
-                                    where companyId = id
-             //             */
-            public Predicate toPredicate(Root<Department> root, CriteriaQuery<?> cq, CriteriaBuilder cb) {
-                //根据企业id查询
-                return cb.equal(root.get("companyId").as(String.class),id);
-            }
-        };
-        return  departmentDao.findAll(spec);
+        return  departmentDao.findAll(getSpec(id));
     }
 
     /**

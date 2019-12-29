@@ -1,9 +1,9 @@
 package com.ihrm.company.controller;
 
 
+import com.ihrm.commom.controller.BaseController;
 import com.ihrm.commom.entity.Result;
 import com.ihrm.commom.entity.ResultCode;
-import com.ihrm.company.dao.DepartmentDao;
 import com.ihrm.company.service.CompanyService;
 import com.ihrm.company.service.DepartmentService;
 import com.ihrm.domain.company.Company;
@@ -21,7 +21,7 @@ import java.util.List;
 @CrossOrigin
 //3.设置父路径
 @RequestMapping(value = "/company")
-public class DepartmentController {
+public class DepartmentController extends BaseController {
 
 
     @Autowired
@@ -33,7 +33,6 @@ public class DepartmentController {
     @RequestMapping(value = "/department",method = RequestMethod.POST)
     public Result save(@RequestBody Department department){
         //1.设置保存的企业id
-        String companyId = "1";
         /**
          * 企业id：目前使用固定值1，以后会解决
          */
@@ -50,7 +49,6 @@ public class DepartmentController {
      */
     @RequestMapping(value="/department",method = RequestMethod.GET)
     public Result findAll() {
-        String companyId = "1";
         //1.指定企业id
         Company company = companyService.findById(companyId);
         //2.完成查询
@@ -65,6 +63,7 @@ public class DepartmentController {
      */
     @RequestMapping(value="/department/{id}",method = RequestMethod.GET)
     public Result findById(@PathVariable(value="id") String id) {
+
         Department department = departmentService.findById(id);
         return new Result(ResultCode.SUCCESS,department);
     }
