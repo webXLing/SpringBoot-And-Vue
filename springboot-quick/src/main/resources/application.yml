@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+
+person:
+  firstName: xl
+  age: 23
+  birthday: 2020/01/02
+  map: {a: 1,b: 2}
+  list:
+    - xl
+    - aa
+  dog:
+    name: 小狗
+    age: 12
